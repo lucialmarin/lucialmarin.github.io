@@ -1,0 +1,101 @@
+.controls-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  margin-top: -6px;
+}
+
+
+.controls-container-2 {
+  height: 98%;
+  width: 8%;
+  background-color: rgba(255, 255, 255, 0.205);
+  backdrop-filter: blur(5px);
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  top: 0%;
+}
+
+.width-control-lupin {
+  height: 99.4% !important;
+}
+
+.control-button {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.volume-control,
+.seek-bar {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Estilo base para la pista del slider */
+.seek-bar {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  background: rgb(0, 0, 0);
+}
+
+.seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.664);
+}
+
+.seek-bar-2 {
+  -webkit-appearance: slider-vertical;
+  flex: 1;
+  margin: 10px 0px;
+  height: 100%;
+  width: 5px;
+  transform: rotate(180deg);
+}
+
+.seek-bar-2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.664);
+}
+
+.hidden {
+  display: none;
+}
+
+.controls-container-2 {
+  opacity: 1;
+  /* Visible al inicio */
+  transition: opacity 0.3s ease;
+  /* Transición suave */
+}
+
+.position-relative:hover .controls-container-2 {
+  opacity: 1;
+  /* Mantiene visible los controles en hover */
+}
+
+.hidden-controls {
+  opacity: 0;
+  /* Oculta después de un tiempo */
+}

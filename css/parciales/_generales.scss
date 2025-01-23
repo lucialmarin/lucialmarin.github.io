@@ -1,0 +1,257 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.body-color {
+    background-color: rgb(0, 0, 0);
+}
+
+
+img,
+video {
+    max-width: 100%;
+}
+
+.menu {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid white;
+}
+
+.menu:nth-child(1),
+.menu:nth-child(2) {
+    border-right: 1px solid white;
+}
+
+.menu:nth-child(4) {
+    border-left: 1px solid white;
+}
+
+.slide-down {
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.fondo {
+    background-image: url(../img/fondo.jpg);
+}
+
+.flecha {
+    width: 12%;
+    backdrop-filter: blur(10px);
+
+    .row {
+        padding-top: 3rem;
+
+        a {
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+
+            img {
+                width: 25px;
+                padding: 5px 0px 5px 0px;
+            }
+        }
+    }
+}
+
+.icon-zoom {
+    width: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menubackground {
+    background-color: white;
+    color: black;
+}
+
+.project-main-img {
+    object-fit: cover;
+}
+
+.maravilla-bg {
+    background-image: url("/img/maravilla-main.jpg");
+    background-size: cover;
+    background-position: center;
+
+    .project-title {
+        font-size: 2rem;
+    }
+}
+
+.logo-sembrita {
+    img {
+        width: 225px;
+    }
+}
+
+.logo-bbva {
+    img {
+        width: 225px;
+    }
+}
+
+.pin-spacer {
+    z-index: -1;
+}
+
+.wanabet-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.covers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 7px;
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.place-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+    .photo-horizontal {
+        grid-column: 1 / -1;
+    }
+}
+
+
+.border-cv {
+    border: 1px solid white;
+
+
+    .border-cv-1 {
+        border-top: 1px solid white;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+
+    h5 {
+        font-size: 1rem;
+        background-color: #000000;
+        position: relative;
+    }
+
+    .border-cv-2 {
+        border-left: 1px solid white;
+
+        .barra {
+            height: 7.7%;
+            background-color: rgb(0, 0, 0);
+            border-bottom: 1px solid white;
+
+            .barra2 {
+                height: 100%;
+                width: 30%;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .barra3 {
+                height: 100%;
+                width: 60%;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .barra4 {
+                height: 100%;
+                width: 80%;
+                background-color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+    .border-cv-3 {
+        border-bottom: 1px solid white;
+    }
+}
+
+.padding-bottom {
+    padding-bottom: 125px;
+}
+
+.prueba {
+    width: 600px;
+}
+
+.menu-theme {
+    padding-bottom: 64px !important;
+
+    .menu-theme-col {
+        div {
+            height: 20%;
+        }
+
+    }
+
+    .img-menu-theme {
+        object-fit: cover;
+    }
+}
+
+.main-img-wanabet {
+    background-color: #e71d75;
+}
+
+.footer {
+    backdrop-filter: blur(10px);
+    margin-bottom: 3.97rem;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.footer-scroll {
+    margin-bottom: 3.97rem;
+
+
+    h1 {
+        font-size: 0.9rem;
+    }
+}
+
+.footer-web-credits {
+    border-top: 1px solid white;
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+
+.cv-apps {
+    border: 1px solid white;
+}
+
+.cv-apps-bar-20 {
+    background-color: #ffffff;
+    width: 20%;
+}
+
+.cv-apps-bar-40 {
+    background-color: #ffffff;
+    width: 40%;
+}
+
+.cv-apps-bar-60 {
+    background-color: #ffffff;
+    width: 60%;
+}
+
+.cv-apps-bar-80 {
+    background-color: #ffffff;
+    width: 80%;
+}
