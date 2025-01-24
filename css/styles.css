@@ -44,7 +44,7 @@ video {
           backdrop-filter: blur(10px);
 }
 .flecha .row {
-  padding-top: 3rem;
+  padding-top: 48px;
 }
 .flecha .row a {
   border-bottom: 1px solid white;
@@ -79,7 +79,7 @@ a {
   background-position: center;
 }
 .maravilla-bg .project-title {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 .logo-sembrita img {
@@ -137,7 +137,7 @@ a {
   z-index: -1;
 }
 .border-cv h5 {
-  font-size: 1rem;
+  font-size: 16px;
   background-color: #000000;
   position: relative;
 }
@@ -145,7 +145,7 @@ a {
   border-left: 1px solid white;
 }
 .border-cv .border-cv-2 .barra {
-  height: 7.7%;
+  height: 123.2px;
   background-color: rgb(0, 0, 0);
   border-bottom: 1px solid white;
 }
@@ -169,7 +169,7 @@ a {
 }
 
 .padding-bottom {
-  padding-bottom: 125px;
+  padding-bottom: 2000px;
 }
 
 .prueba {
@@ -177,10 +177,10 @@ a {
 }
 
 .menu-theme {
-  padding-bottom: 64px !important;
+  padding-bottom: 1024px !important;
 }
 .menu-theme .menu-theme-col div {
-  height: 20.5%;
+  height: 328px;
 }
 .menu-theme .img-menu-theme {
   -o-object-fit: cover;
@@ -194,16 +194,16 @@ a {
 .footer {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
   border-top: 1px solid white;
   border-left: 1px solid white;
 }
 
 .footer-scroll {
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 .footer-scroll h1 {
-  font-size: 0.9rem;
+  font-size: 14.4px;
 }
 
 .footer-web-credits {
@@ -795,9 +795,9 @@ h5 .italic {
     width: 100% !important;
   }
   .width-100 h2 {
-    margin: 5rem;
-    font-size: 4rem;
-    line-height: 5rem;
+    margin: 80px;
+    font-size: 64px;
+    line-height: 80px;
   }
   .width-100 .title {
     width: 80%;
@@ -822,10 +822,10 @@ h5 .italic {
     animation: slide-up 0s cubic-bezier(0.65, 0, 0.35, 1) both;
   }
   h5 {
-    font-size: 1rem;
+    font-size: 16px;
   }
   .web-credits {
-    font-size: 0.9rem;
+    font-size: 14.4px;
   }
   .display-none-1280 {
     display: none;
@@ -866,7 +866,7 @@ h5 .italic {
     height: 450px;
   }
   .copys-size h1 {
-    font-size: 1.2rem;
+    font-size: 19.2px;
   }
   .copy-raw {
     width: 40px;

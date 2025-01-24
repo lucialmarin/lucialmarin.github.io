@@ -6,7 +6,6 @@
     background-color: rgb(0, 0, 0);
 }
 
-
 img,
 video {
     max-width: 100%;
@@ -41,7 +40,7 @@ video {
     backdrop-filter: blur(10px);
 
     .row {
-        padding-top: 3rem;
+        padding-top: 48px;
 
         a {
             border-bottom: 1px solid white;
@@ -78,7 +77,7 @@ a {
     background-position: center;
 
     .project-title {
-        font-size: 2rem;
+        font-size: 32px;
     }
 }
 
@@ -145,7 +144,7 @@ a {
     }
 
     h5 {
-        font-size: 1rem;
+        font-size: 16px;
         background-color: #000000;
         position: relative;
     }
@@ -154,7 +153,7 @@ a {
         border-left: 1px solid white;
 
         .barra {
-            height: 7.7%;
+            height: 123.2px;
             background-color: rgb(0, 0, 0);
             border-bottom: 1px solid white;
 
@@ -184,7 +183,7 @@ a {
 }
 
 .padding-bottom {
-    padding-bottom: 125px;
+    padding-bottom: 2000px;
 }
 
 .prueba {
@@ -192,11 +191,11 @@ a {
 }
 
 .menu-theme {
-    padding-bottom: 64px !important;
+    padding-bottom: 1024px !important;
 
     .menu-theme-col {
         div {
-            height: 20.5%;
+            height: 328px;
         }
 
     }
@@ -212,16 +211,16 @@ a {
 
 .footer {
     backdrop-filter: blur(10px);
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
     border-top: 1px solid white;
     border-left: 1px solid white;
 }
 
 .footer-scroll {
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 
     h1 {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 }
 
