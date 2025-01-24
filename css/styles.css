@@ -194,13 +194,13 @@ a {
 .footer {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  margin-bottom: 3.97rem;
+  margin-bottom: 3rem;
   border-top: 1px solid white;
   border-left: 1px solid white;
 }
 
 .footer-scroll {
-  margin-bottom: 3.97rem;
+  margin-bottom: 3rem;
 }
 .footer-scroll h1 {
   font-size: 0.9rem;
@@ -530,7 +530,7 @@ h5 .italic {
 }
 
 .web-credits {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   line-height: 1rem;
   letter-spacing: 0.05rem;
 }
@@ -738,12 +738,6 @@ h5 .italic {
   }
   .position-mobile-title {
     align-items: end !important;
-  }
-}
-@media screen and (min-width: 550px) {
-  .footer-scroll,
-  .footer {
-    margin-bottom: 3rem;
   }
 }
 @media screen and (max-width: 1200px) {
