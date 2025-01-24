@@ -168,17 +168,11 @@ a {
   border-bottom: 1px solid white;
 }
 
-.prueba {
-  width: 600px;
+.menu-theme .menu-theme-col div {
+  height: 19%;
 }
 
-.menu-theme {
-  padding-bottom: 1024px !important;
-}
-.menu-theme .menu-theme-col div {
-  height: 328px;
-}
-.menu-theme .img-menu-theme {
+.img-menu-theme {
   -o-object-fit: cover;
      object-fit: cover;
 }
