@@ -729,6 +729,9 @@ h5 .italic {
   .maravilla-web-width-ipad {
     width: 65%;
   }
+  .height-mobile {
+    height: 45% !important;
+  }
 }
 @media screen and (max-width: 700px) {
   .grid-ipad {
