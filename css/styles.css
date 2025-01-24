@@ -168,8 +168,11 @@ a {
   border-bottom: 1px solid white;
 }
 
+.menu-theme {
+  padding-bottom: 49px !important;
+}
 .menu-theme .menu-theme-col div {
-  height: 18.9%;
+  height: 20%;
 }
 
 .img-menu-theme {
@@ -731,9 +734,6 @@ h5 .italic {
   .maravilla-web-width-ipad {
     width: 65%;
   }
-  .height-mobile {
-    height: 40% !important;
-  }
 }
 @media screen and (max-width: 700px) {
   .grid-ipad {
@@ -757,7 +757,10 @@ h5 .italic {
   }
 }
 @media screen and (min-width: 1360px) {
-  .menu-theme-col {
+  .menu-theme {
+    padding-bottom: 30px !important;
+  }
+  .menu-theme .menu-theme-col {
     width: 25% !important;
   }
   .flecha {
@@ -766,9 +769,6 @@ h5 .italic {
   .flecha img {
     padding: 3px 0px 3px;
     width: 30% !important;
-  }
-  .menu-theme {
-    padding-bottom: 30px !important;
   }
   .width-1280 {
     align-items: center !important;

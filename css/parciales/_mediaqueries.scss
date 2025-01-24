@@ -26,10 +26,6 @@
     .maravilla-web-width-ipad {
         width: 65%;
     }
-
-    .height-mobile {
-        height: 40% !important;
-    }
 }
 
 @media screen and (max-width: 700px) {
@@ -59,8 +55,12 @@
 }
 
 @media screen and (min-width: 1360px) {
-    .menu-theme-col {
-        width: 25% !important;
+    .menu-theme {
+        padding-bottom: 30px !important;
+
+        .menu-theme-col {
+            width: 25% !important;
+        }
     }
 
     .flecha {
@@ -72,9 +72,7 @@
         }
     }
 
-    .menu-theme {
-        padding-bottom: 30px !important;
-    }
+
 
     .width-1280 {
         align-items: center !important;
