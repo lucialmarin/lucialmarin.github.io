@@ -180,7 +180,7 @@ a {
   padding-bottom: 64px !important;
 }
 .menu-theme .menu-theme-col div {
-  height: 20%;
+  height: 20.5%;
 }
 .menu-theme .img-menu-theme {
   -o-object-fit: cover;
@@ -530,9 +530,8 @@ h5 .italic {
 }
 
 .web-credits {
-  font-size: 0.5rem;
+  font-size: 0.65rem;
   line-height: 1rem;
-  letter-spacing: 0.05rem;
 }
 
 .next-project h3 {
