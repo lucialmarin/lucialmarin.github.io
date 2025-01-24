@@ -686,18 +686,17 @@ h5 .italic {
 .footer-2 {
   border-top: 1px solid rgb(0, 0, 0);
   border-left: 1px solid rgb(0, 0, 0);
-  border-bottom: 1px solid rgb(0, 0, 0);
 }
 .footer-2 h1 {
   color: #000000;
 }
 
-.footer-scroll-2 {
-  border-bottom: 1px solid rgb(0, 0, 0);
-}
-
 .web-credits-2 {
   color: #000000;
+}
+
+.footer-web-credits-2 {
+  border-top: 1px solid black;
 }
 
 .contact {
