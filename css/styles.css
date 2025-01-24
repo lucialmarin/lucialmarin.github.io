@@ -169,7 +169,7 @@ a {
 }
 
 .menu-theme .menu-theme-col div {
-  height: 19%;
+  height: 18.9%;
 }
 
 .img-menu-theme {
@@ -705,6 +705,7 @@ h5 .italic {
 .text-contact {
   background-color: white;
   color: black;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1360px) {
