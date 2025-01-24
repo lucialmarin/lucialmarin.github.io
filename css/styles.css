@@ -477,28 +477,28 @@ a {
   src: url(../fonts/maravilla.otf);
 }
 h1 {
-  font-size: 1rem;
+  font-size: 16px;
   color: rgb(255, 255, 255);
-  line-height: 1.5rem;
+  line-height: 24px;
   font-family: PPMori-Regular;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 48px;
   font-family: PPEditorialOld-Regular;
-  line-height: 4rem;
+  line-height: 64px;
   color: white;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 32px;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-family: PPEditorialOld-Regular;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   font-family: PPMori-Extralight;
   border-top: 1px solid white;
@@ -506,7 +506,7 @@ h4 {
 
 .logo-maravilla h6 {
   font-family: maravilla;
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 .raw-grid {
@@ -520,23 +520,23 @@ h4 {
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 20px;
   color: rgb(255, 255, 255);
   font-family: PPMori-Extralight;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.48px;
 }
 h5 .italic {
   text-decoration: underline;
 }
 
 .web-credits {
-  font-size: 0.65rem;
-  letter-spacing: 0.05rem;
-  line-height: 1rem;
+  font-size: 10.4px;
+  letter-spacing: 0.8px;
+  line-height: 16px;
 }
 
 .next-project h3 {
-  font-size: 2rem;
+  font-size: 32px;
 }
 .next-project img {
   transform: scaleX(-1);
@@ -545,7 +545,7 @@ h5 .italic {
 }
 
 .copy-font {
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .copy-apps {
@@ -731,7 +731,7 @@ h5 .italic {
     width: 65%;
   }
   .height-mobile {
-    height: 45% !important;
+    height: 40% !important;
   }
 }
 @media screen and (max-width: 700px) {
