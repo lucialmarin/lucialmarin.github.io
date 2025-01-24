@@ -168,10 +168,6 @@ a {
   border-bottom: 1px solid white;
 }
 
-.padding-bottom {
-  padding-bottom: 2000px;
-}
-
 .prueba {
   width: 600px;
 }
@@ -710,6 +706,11 @@ h5 .italic {
 
 .contact-h1 {
   color: #000000;
+}
+
+.text-contact {
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 1360px) {
