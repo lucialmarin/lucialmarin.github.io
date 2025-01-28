@@ -470,7 +470,7 @@ a {
   src: url(../fonts/maravilla.otf);
 }
 h1 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   /* 16px */
   color: rgb(255, 255, 255);
   line-height: 1.5rem;
@@ -479,7 +479,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   /* 48px */
   font-family: PPEditorialOld-Regular;
   line-height: 4rem;
@@ -801,14 +801,12 @@ h5 .italic {
     transform: rotate(-90deg);
     transform-origin: center 50vh;
   }
-  .width-100 {
-    height: 100% !important;
-    width: 100% !important;
-  }
   .width-100 h2 {
     margin: 80px;
-    font-size: 64px;
-    line-height: 80px;
+    font-size: 4rem;
+    /* 64px to rem */
+    line-height: 5rem;
+    /* 80px to rem */
   }
   .width-100 .title {
     width: 80%;
@@ -833,10 +831,10 @@ h5 .italic {
     animation: slide-up 0s cubic-bezier(0.65, 0, 0.35, 1) both;
   }
   h5 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .web-credits {
-    font-size: 14.4px;
+    font-size: 0.9rem;
   }
   .display-none-1280 {
     display: none;
@@ -877,7 +875,7 @@ h5 .italic {
     height: 450px;
   }
   .copys-size h1 {
-    font-size: 19.2px;
+    font-size: 1.2rem;
   }
   .copy-raw {
     width: 40px;
