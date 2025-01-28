@@ -27,7 +27,7 @@ h1 {
     font-size: 0.9rem;
     /* 16px */
     color: rgb(255, 255, 255);
-    line-height: 1.5rem;
+    line-height: 1.4rem;
     /* 24px */
     font-family: PPMori-Regular;
 }
@@ -36,7 +36,7 @@ h2 {
     font-size: 2.8rem;
     /* 48px */
     font-family: PPEditorialOld-Regular;
-    line-height: 3.5rem;
+    line-height: 3.4rem;
     /* 64px */
     color: white;
 }
@@ -58,7 +58,7 @@ h4 {
 }
 
 .text-me {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
     /* 18px */
     color: black;
 }
@@ -75,25 +75,6 @@ h4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0.3125rem;
-    /* 5px */
-
-    h5 {
-        background-color: white;
-        color: black;
-    }
-}
-
-h5 {
-    font-size: 1.25rem;
-    /* 20px */
-    color: rgb(255, 255, 255);
-    font-family: PPMori-Extralight;
-    letter-spacing: 0.03rem;
-    /* 0.48px */
-
-    .italic {
-        text-decoration: underline;
-    }
 }
 
 .web-credits {
@@ -116,10 +97,6 @@ h5 {
         /* 30px */
         border: none;
     }
-}
-
-.copy-font {
-    font-size: 1rem;
 }
 
 .copy-apps {
